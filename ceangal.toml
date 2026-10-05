@@ -1,0 +1,16 @@
+[app]
+id = "dev.almide.ceangalhello"
+name = "Ceangal Hello"
+version = "0.1.0"
+build = 1
+entry = "src/main.almd"
+# icon = "icon.png"            # 1024 px; `ceangal icons` makes every size from it
+icon_background = "#1A1B26"
+assets = []
+network = false
+
+[framework]
+version = "0.1.0"
+
+[linux]
+id = "dev.almide.ceangalhello"   # Flathub checks this domain (io.github.<you>.<app> works)

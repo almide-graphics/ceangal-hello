@@ -1,0 +1,9 @@
+name: app
+on: [push, pull_request]
+jobs:
+  app:
+    uses: almide-graphics/ceangal2/.github/workflows/app.yml@main
+    secrets: inherit
+    with:
+      click: Count
+      framework: main   # until ceangal v0.1.0 is tagged
