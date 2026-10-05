@@ -10,7 +10,7 @@ assets = []
 network = false
 
 [framework]
-version = "0.1.0"
+version = "0.2.0"
 
 [linux]
 id = "dev.almide.ceangalhello"   # Flathub checks this domain (io.github.<you>.<app> works)

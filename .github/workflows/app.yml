@@ -2,7 +2,7 @@ name: app
 on: [push, pull_request]
 jobs:
   app:
-    uses: almide-graphics/ceangal2/.github/workflows/app.yml@v0.1.0
+    uses: almide-graphics/ceangal2/.github/workflows/app.yml@v0.2.0
     secrets: inherit
     with:
       click: Count
